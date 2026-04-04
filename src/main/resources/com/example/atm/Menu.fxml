@@ -15,17 +15,17 @@
                   <Font size="30.0" />
                </font>
             </Label>
-            <Button layoutX="14.0" layoutY="314.0" mnemonicParsing="false" text="Consult">
+            <Button fx:id="btnConsultWindow" layoutX="14.0" layoutY="314.0" mnemonicParsing="false" text="Consult">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="14.0" layoutY="202.0" mnemonicParsing="false" text="Deposit">
+            <Button fx:id="btnDepositWindow" layoutX="14.0" layoutY="202.0" mnemonicParsing="false" text="Deposit">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="14.0" layoutY="258.0" mnemonicParsing="false" text="Widthdraw">
+            <Button fx:id="btnWithdrawWindow" layoutX="14.0" layoutY="258.0" mnemonicParsing="false" text="Widthdraw">
                <font>
                   <Font size="15.0" />
                </font>
