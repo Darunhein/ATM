@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.atm.ControllerDeposit"
-            prefHeight="400.0" prefWidth="600.0">
 
-</AnchorPane>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="410.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="145.0" layoutY="126.0" text="Bienvenido ingresa la cantidad a depositar" textFill="#8884a1">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtDeposito" layoutX="225.0" layoutY="181.0" />
+            <Button layoutX="256.0" layoutY="239.0" mnemonicParsing="false" onAction="#onButtonDepositar" text="Depositar " textFill="#736c8a">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</VBox>
