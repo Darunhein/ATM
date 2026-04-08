@@ -18,7 +18,7 @@ public class ControllerMenu {
 
     @FXML
     private void Deposit(ActionEvent event) throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("Deposit.fxml"));
+        Parent root = FXMLLoader.load((getClass().getResource("Deposit.fxml")));
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));
         stage.show();
