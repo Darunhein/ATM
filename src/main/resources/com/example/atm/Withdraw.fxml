@@ -24,7 +24,7 @@
                </children>
             </Pane>
             <Button layoutX="68.0" layoutY="298.0" mnemonicParsing="false" onAction="#onRegresarClick" text="Regresar al Menu" />
-            <Button fx:id="txtMonto" layoutX="259.0" layoutY="217.0" mnemonicParsing="false" onAction="#onRetirarClick" text="RETIRAR" />
+            <Button fx:id="" layoutX="259.0" layoutY="217.0" mnemonicParsing="false" onAction="#onRetirarClick" text="RETIRAR" />
          </children>
       </Pane>
    </children>
