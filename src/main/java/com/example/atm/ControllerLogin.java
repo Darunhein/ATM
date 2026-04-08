@@ -14,6 +14,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class ControllerLogin {
 
@@ -28,12 +29,14 @@ public class ControllerLogin {
     private void Login(ActionEvent event) throws IOException{
 
         if(txtFUserLogin.getText().equals("admin") && txtFPwdLogin.getText().equals("root")) {
-            Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
+            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Menu.fxml")));
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();
         }else {
             lblLoginError.setVisible(true);
+            txtFUserLogin.clear();
+            txtFPwdLogin.clear();
         }
     }
 
