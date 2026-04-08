@@ -27,7 +27,7 @@
             </Label>
             <TextField fx:id="txtFUserLogin" layoutX="74.0" layoutY="204.0" />
             <TextField fx:id="txtFPwdLogin" layoutX="74.0" layoutY="294.0" />
-            <Button layoutX="125.0" layoutY="357.0" mnemonicParsing="false" text="Login">
+            <Button layoutX="125.0" layoutY="357.0" mnemonicParsing="false" onAction="#Login" text="Login">
                <font>
                   <Font size="15.0" />
                </font>
