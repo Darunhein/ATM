@@ -14,17 +14,17 @@
                   <Font size="30.0" />
                </font>
             </Label>
-            <Button fx:id="btnConsultWindow" layoutX="218.0" layoutY="202.0" mnemonicParsing="false" onAction="#Consult" text="Consult">
+            <Button layoutX="218.0" layoutY="202.0" mnemonicParsing="false" onAction="#Consult" text="Consult">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button fx:id="btnDepositWindow" layoutX="43.0" layoutY="202.0" mnemonicParsing="false" onAction="#Deposit" text="Deposit">
+            <Button layoutX="43.0" layoutY="202.0" mnemonicParsing="false" onAction="#Deposit" text="Deposit">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button fx:id="btnWithdrawWindow" layoutX="124.0" layoutY="260.0" mnemonicParsing="false" onAction="#Withdraw" text="Widthdraw">
+            <Button layoutX="124.0" layoutY="260.0" mnemonicParsing="false" onAction="#Withdraw" text="Widthdraw">
                <font>
                   <Font size="15.0" />
                </font>
