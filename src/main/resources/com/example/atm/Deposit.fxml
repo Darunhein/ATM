@@ -4,9 +4,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.ControllerDeposit">
    <children>
-      <Pane prefHeight="410.0" prefWidth="600.0">
+      <Pane prefHeight= "410.0" prefWidth="600.0">
          <children>
             <Label layoutX="145.0" layoutY="126.0" text="Bienvenido ingresa la cantidad a depositar" textFill="#8884a1">
                <font>
